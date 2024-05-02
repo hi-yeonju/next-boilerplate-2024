@@ -1,7 +1,10 @@
+"use client"
+import ColorPicker from "@/components/ui/color/ColorPicker";
+
 const ColorScreen = () => {
     return (
         <div>
-            Enter
+            <ColorPicker /> 
         </div>
     );
 }

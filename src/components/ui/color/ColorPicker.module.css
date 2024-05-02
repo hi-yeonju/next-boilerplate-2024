@@ -1,0 +1,26 @@
+
+.pointer{width: 15px; height: 15px; background: #eee; border: 1px solid #ddd; border-radius: 50%; position: absolute; box-shadow: 0 0 0 2px #fff inset;}
+
+.container{width: 200px; height: 200px; margin: 10px 0; border: 1px solid #eee; position: relative;}
+.container::before,
+.container::after{content: ""; display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
+.container::before{z-index: 1; background: linear-gradient(to right, rgb(255,255,255), transparent);}
+.container::after{z-index: 2; background: linear-gradient(to bottom, transparent, rgb(0,0,0));}
+.container .pointer{transform: translate(-15px, 15px);}
+
+
+
+.colorSpectrum{ background:linear-gradient(
+    to right, 
+    rgb(255, 0, 0),
+    rgb(255, 255, 0),
+    rgb(0, 255, 0),
+    rgb(0, 255, 255),
+    rgb(0, 0, 255),
+    rgb(255, 0, 255),
+    rgb(255, 0, 0)
+);  width: 200px; height: 15px; position: relative; border-radius: 50px;
+}
+.colorSpectrum .bar{ top: 50%; transform: translateY(-50%); left: 0; }
+
+.select{width: 20px; height: 20px; border: 1px solid #ccc; margin: 30px;}
