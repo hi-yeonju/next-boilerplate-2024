@@ -1,0 +1,4 @@
+.container{background-color: #f9f9f9; min-height: 100vh; }
+.container ul{display: flex;  gap: 20px; padding: 30px;}
+.container li a{display: inline-block; padding: 10px 20px; border-radius: 50px; background-color: #f1f1f1; color: #666; font-size: 14px;}
+.container li a:hover{background-color: #eeeafb;}
