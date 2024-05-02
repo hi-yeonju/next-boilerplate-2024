@@ -1,0 +1,53 @@
+/*
+ * reset
+*/
+*{margin: 0;padding: 0; text-decoration: none;  list-style: none; box-sizing: border-box; -webkit-text-size-adjust: none;  box-sizing: border-box;  
+    -webkit-tap-highlight-color:rgba(255,255,255,0);
+    -webkit-touch-callout: none;
+   
+ 
+}
+button{color: #252525; font-family: 'Noto Sans KR', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif; background: none; border: none; cursor: pointer;}
+a{color: #252525; font-family: 'Noto Sans KR', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif; }
+body{color: #252525;
+    font-family: 'Noto Sans KR', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif; 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5, h6{border: none; font-weight: 500;}
+img{border: none;}
+.clear::after{content: " "; display: block; clear: both;}
+::-webkit-input-placeholder {color: #ccc;}
+:-moz-placeholder {color: #ccc; opacity:1;}
+::-moz-placeholder {color: #ccc; opacity:1;}
+:-ms-input-placeholder {color: #ccc;}
+:placeholder-shown {color: #ccc;}
+table{border-collapse: collapse;}
+select::-ms-expand {display:none}
+
+/* form reset */
+input:focus{outline: none;}
+select{appearance: none; -moz-appearance: none; -webkit-appearance: none;  -ms-appearance: none;  border: 1px solid #666; color: #252525; height: 42px; border-radius: 3px; padding: 0 10px; padding-right: 20px; background: #fff no-repeat center right 10px/24px; 
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M19.0202 9.64645C19.2155 9.84171 19.2155 10.1583 19.0202 10.3536L12.3536 17.0202C12.1583 17.2155 11.8417 17.2155 11.6465 17.0202L4.97979 10.3536C4.78452 10.1583 4.78452 9.84171 4.97979 9.64645C5.17505 9.45118 5.49163 9.45118 5.68689 9.64645L12 15.9596L18.3131 9.64645C18.5084 9.45118 18.825 9.45118 19.0202 9.64645Z' fill='%23555555' stroke='%23555555' stroke-width='0.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    font-family: 'Noto Sans KR', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
+}
+select:focus{outline: none;
+    background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 16L11 9L18 16' stroke='%23252525' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+input[type=number],
+input[type=email],
+input[type=tel],
+input[type=password],
+input[type=text]{appearance: none; -webkit-appearance: none; -moz-appearance: none;  box-shadow: none;  padding: 0 10rem; height: 42rem;  font-family: 'Noto Sans KR', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;}
+textarea{ font-family: 'Noto Sans KR', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+img{
+    image-rendering: -moz-crisp-edges; /* Firefox */ image-rendering: -o-crisp-edges; /* Opera */ image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */ image-rendering: crisp-edges; -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+}
+
